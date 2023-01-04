@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sydney Charitos/ DIY Ecological Momentary Assessment"
+title                    : "DIY Ecological Momentary Assessment"
 title_separator          : "-"
 name                     : &name "Sydney Charitos"
 description              : &description "think about this"
@@ -227,23 +227,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
-  # # _talks
-  # - scope:
-  #     path: ""
-  #     type: talks
-  #   values:
-  #     layout: talk
-  #     author_profile: true
-  #     share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: false
 
 # Sass/SCSS
 sass:
